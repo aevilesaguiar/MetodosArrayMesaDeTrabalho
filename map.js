@@ -12,3 +12,13 @@ let frase=nome.map(function(fraseCompleta){
     return 'Meu nome é '+ fraseCompleta;
 });
 console.log(frase);
+
+
+const array = [2, 4, 6, 8];
+
+function teste(e) {
+    return e * 3;
+}
+
+let result = array.map(teste);
+console.log(result);
